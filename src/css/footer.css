@@ -13,3 +13,15 @@ footer.footer {
 .footer a {
   color: var(--footer-link-font-color);
 }
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-image,
+.footer-text {
+  display: flex;
+  align-items: center;
+}
